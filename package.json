@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Wolfy87/binary-search",
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-bench": "^1.1.0",
     "gulp-mocha": "^2.0.0",
     "mocha-testcheck": "^0.1.2"
   }
