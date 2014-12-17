@@ -1,0 +1,31 @@
+{
+  "name": "binary-search",
+  "version": "1.0.0",
+  "description": "This is a binary search implementation in JavaScript that was born from a couple of my blog posts. It focusses on heavy generative testing and benchmarks to make sure it works and runs fast.",
+  "main": "src/binarySearch.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wolfy87/binary-search"
+  },
+  "keywords": [
+    "binary",
+    "search"
+  ],
+  "author": "Oliver Caldwell",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Wolfy87/binary-search/issues"
+  },
+  "homepage": "https://github.com/Wolfy87/binary-search",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^2.0.0",
+    "mocha-testcheck": "^0.1.2"
+  }
+}
