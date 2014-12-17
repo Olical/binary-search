@@ -10,11 +10,6 @@ describe('binarySearch', function () {
 
         var base = list.indexOf(item);
         var result = binarySearch(list, item);
-
-        if (list[base] !== list[result]) {
-            console.log(list, item, base, result);
-        }
-
         assert(list[base] === list[result]);
     });
 });
