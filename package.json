@@ -1,5 +1,5 @@
 {
-  "name": "binary-search",
+  "name": "olical-binary-search",
   "version": "1.0.0",
   "description": "This is a binary search implementation in JavaScript that was born from a couple of my blog posts. It focusses on heavy generative testing and benchmarks to make sure it works and runs fast.",
   "main": "src/binarySearch.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wolfy87/binary-search"
+    "url": "https://github.com/Olical/binary-search"
   },
   "keywords": [
     "binary",
@@ -21,9 +21,9 @@
   "author": "Oliver Caldwell",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/Wolfy87/binary-search/issues"
+    "url": "https://github.com/Olical/binary-search/issues"
   },
-  "homepage": "https://github.com/Wolfy87/binary-search",
+  "homepage": "https://github.com/Olical/binary-search",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-bench": "^1.1.0",
