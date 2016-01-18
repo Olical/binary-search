@@ -10,11 +10,19 @@ function binarySearch(list, item) {
     var max = list.length - 1;
     var guess;
 
-	var bitwise = (max <= 2147483647) ? true : false;
-	while (min <= max) {
-		if (bitwise) { guess = (min + max) >> 1; }
-		else { guess = Math.floor((min + max) / 2); }
+	var bitwiseGuess = function(min, max) {
+		return (min + max) >> 1;
+	};
 
+	var nonBitwiseGuess = function(min, max) {
+		return Math.floor((min + max) / 2);
+	};
+
+	var bitwise = (max <= 2147483647) ? true : false;
+	var getNextGuess = bitwise ? bitwiseGuess : nonBitwiseGuess;
+
+	while (min <= max) {
+		guess = getNextGuess(min, max);
 		if (list[guess] === item) { return guess; }
 		else {
 			if (list[guess] < item) { min = guess + 1; }
